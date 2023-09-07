@@ -1,0 +1,38 @@
+.div_card {
+
+    width: 500px;
+    height: fit-content;
+    background-color: rgb(8, 48, 21); 
+    border-radius: 30px;
+    border: solid 5px #00ff37; 
+    margin: 20px;
+   
+}
+
+.div_circulo{
+
+    width: 100px; 
+    height: 100px; 
+    background-color: #00ff37; 
+    border-radius: 100px;
+    
+    
+    
+    
+}
+
+.div_texto {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+
+}
+
+#div_texto_branco {
+color: #FFF;
+}
+
+#div_texto_verde {
+    color:#00ff37;
+}
