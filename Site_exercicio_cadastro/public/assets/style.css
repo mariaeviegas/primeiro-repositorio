@@ -1,0 +1,237 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+
+.header {
+    border-bottom: 3px solid rgb(44, 209, 255);
+    /* margin: 0px 0px 3px 0px; */
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+/* Ele calcula o tamanho da tela e deixa todos os elemnentos no centro */
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color:rgb(44, 209, 255);
+}
+
+
+.header .container ul{
+
+  
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+ 
+}
+
+/* a{
+    all: unset;
+}
+
+a:hover {
+    color: aqua;
+} */
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(255, 222, 77)
+}
+
+.header a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.banner {
+    background-image: url(images/banner.png);
+    background-size: cover;
+   
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.banner .container p{
+    font-size: 30px;
+    color: white;
+    width: 400px;
+}
+
+.social {
+    background-color: white;
+    display: flex;
+}
+
+.social .container {
+    justify-content: center;
+}
+
+.box img {
+    width: 100px;
+   
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+box p {
+    text-align: center;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(40, 2, 105);
+    
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.footer .container .version {
+    font-size: 12px;
+    font-weight: 800;
+    
+
+}
+
+.cardCadastro {
+    padding: 30px;
+    margin: 15px;
+    width: 30%;
+    background-color: rgb(244, 241, 241);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color:rgb(250, 140, 158) ;
+    
+    
+
+    
+}
+
+.card h2{
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.formulario {
+    display: flex;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.formulario span {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(250, 140, 158);
+    margin-top: 10px;
+}
+
+.formulario input {
+    border: 2px solid rgb(44, 209, 255);
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.login .container {
+    justify-content: center;
+   height: 500px;
+
+
+
+}
+
+.botao {
+    background-color: rgb(251, 52, 115);
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+}
+
+.cadastro .container{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.cadastro {
+    background-image: url(./images/banner.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
